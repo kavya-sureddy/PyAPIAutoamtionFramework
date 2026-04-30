@@ -2,11 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone') {
-            steps {
-                git 'https://github.com/kavya-sureddy/PyAPIAutoamtionFramework.git'
-            }
-        }
 
         stage('Install Dependencies') {
             steps {
